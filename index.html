@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addition and Subtraction of Fractions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Addition and Subtraction of Fractions</h1>
+        <div id="exercise-container">
+            <div id="fraction-display"></div>
+            <div id="question">
+                <p id="current-question">What is the Least Common Multiple (LCM) of the denominators?</p>
+                <div id="input-container">
+                    <input type="number" id="user-input" placeholder="Enter the LCM">
+                    <button onclick="checkAnswer()">Check</button>
+                </div>
+            </div>
+            <div id="feedback"></div>
+            <div id="homogeneous-display"></div>
+        </div>
+        <button id="reset-btn" onclick="startExercise()">New Operation</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
